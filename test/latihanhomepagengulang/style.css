@@ -91,3 +91,11 @@ img .imagekiri {
     background-color: #0D1C37;
     color: #ffffff;
 }
+
+.orang {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+
+}
