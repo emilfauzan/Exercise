@@ -27,7 +27,7 @@
 }
 
 .imagekanan {
-    background-image: url("/latihanhomepagengulang/assets/poto1.png");
+    background-image: url("/test/latihanhomepagengulang/assets/poto1.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: contain;
@@ -35,7 +35,7 @@
 }
 
 img .imagekiri {
-    background-image: url("/latihanhomepagengulang/assets/poto2.png");
+    background-image: url("/test/latihanhomepagengulang/assets/poto2.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: contain;
@@ -75,7 +75,7 @@ img .imagekiri {
 }
 
 .wave {
-    background-image: url("/latihanhomepagengulang/assets/Vector\ 1.png");
+    background-image: url("/test/latihanhomepagengulang/assets/Vector\ 1.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: auto;
