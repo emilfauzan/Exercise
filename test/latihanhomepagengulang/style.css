@@ -38,6 +38,22 @@ html {
     background-position: center center;
 }
 
+.imagekananindex {
+    background-image: url("/test/latihanhomepagengulang/assets/image\ 3.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.imagekananindex2 {
+    background-image: url("/test/latihanhomepagengulang/assets/page3-2.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
 img .imagekiri {
     background-image: url("/test/latihanhomepagengulang/assets/poto2.png");
     background-color: #ffffff;
@@ -96,7 +112,7 @@ img .imagekiri {
     height: 723px;
 }
 
-.card {
+.cardbiru {
     background-color: #0D1C37;
     color: #ffffff;
 }
@@ -109,13 +125,41 @@ img .imagekiri {
 
 }
 
-@media only screen and (max-width: 600px) {
-    .tim {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+.horizontal-scroll-wrapper {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 63px;
+    max-height: 1000px;
+    max-width: 500px;
+    background: #D9D9D9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg) translateY(-100px);
+    transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper>div {
+    width: 60px;
+    height: 300px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    transform: rotate(90deg);
+    transform-origin: right top;
+}
+
+.merk {
+    top: 100px;
+    padding: 100px 0 0 0;
+}
+
+.merk>div {
+    width: 130px;
+    height: 200px;
+    margin: 50px 10px;
+    padding: 5px;
+    transform: rotate(90deg) translateY(80px);
+    transform-origin: right top;
 }
