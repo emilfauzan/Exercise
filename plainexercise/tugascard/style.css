@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bgbgt {
+    background-color: #5860A6;
+}
+
+.wrapper {
+    padding: 0 20px 0 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5860A6;
+    border-radius: 20px;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+.row {
+    width: 800px;
+    height: 450px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0, 0.2);
+}
+
+.side-image {
+    background-image: url("/tugascard/poto/image-card-kanan.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0 20px 20px 0;
+    transition: .2s;
+}
+.side-image:hover{
+    background-image: url("/tugascard/poto/business-women-shaking-hands.jpg");
+}
+.mt {
+    margin-top: 20px;
+}
+
+.tengah {
+    align-items: center;
+}
+
+.tombol {
+    background-color: #5860A6;
+    color: #FFFFFF;
+}
+
+.left {
+    background-color: #fff;
+    border-radius: 20px 0 0 20px;
+    padding: 40px 20px 40px 20px;
+}
+
+.abu {
+    color: grey;
+}
+
+@media only screen and (max-width:767px) {
+    .side-image {
+        border-radius: 20px 20px 0 0;
+    }
+
+    img {
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        left: 47%;
+    }
+
+    .left {
+        border-radius: 20px 20px 20px 20px;
+    }
+
+}

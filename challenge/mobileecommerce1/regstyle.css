@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #08131f;
+}
+
+.container {
+    width: 425px;
+    height: 770px;
+    background: #1c253f;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.image1 {
+    background-image: url("/Exercise/latihanmandiri/mobileecommerce1/assets/room1.png");
+    background-color: #2c2929;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.btnkuning {
+    font-weight: 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #E2A847;
+    padding: 10px 70px;
+    border: solid #e2a847 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) Opx 3px 6px, rgba(0, 0, 0, 0.23) Opx 3px 6px;
+    border-radius: 9px;
+    transition: 255ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btnkuning:hover {
+    transition: 255ms;
+    padding: 10px 70px;
+    background-color: #fff;
+    color: #000000;
+    border: solid 2px #ffffff;
+}
+
+.btnputih {
+    font-weight: 0;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 70px;
+    border: solid #ffffff 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) Opx 3px 6px, rgba(0, 0, 0, 0.23) Opx 3px 6px;
+    border-radius: 9px;
+    transition: 255ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btnputih:hover {
+    transition: 255ms;
+    padding: 10px 70px;
+    background-color: #198754;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+}
