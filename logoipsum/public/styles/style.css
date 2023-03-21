@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: visible;
+}
+
+html {
+    scroll-padding-top: 70px;
+}
+
+.buttonnya {
+    background-color: #312ecb;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    text-decoration: none;
+    padding: 5px 35px;
+}
+
+.buttonnya:hover {
+    background-color: #3431e0;
+}
+
+.buttonnya:active {
+    position: relative;
+    top: 1px;
+}
+
+.imagekanan {
+    background-image: url("/assets/poto1.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.imagekananindex {
+    background-image: url("/assets/image\ 3.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.imagekananindex2 {
+    background-image: url("/assets/page3-2.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+img .imagekiri {
+    background-image: url("/assets/poto2.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-clip: content-box;
+}
+
+.gambarmini {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px 0 0;
+}
+
+
+.gambarmini2 {
+    width: 100%;
+}
+
+.kepsyen {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6B717C;
+}
+
+.lorem {
+    width: 872px;
+    height: 119px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+    /* or 240% */
+
+    text-align: center;
+
+    color: #6B717C;
+}
+
+.wave {
+    background-image: url("/assets/Vector\ 1.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-height: 723px;
+}
+
+.puanjang {
+    height: 723px;
+}
+
+.cardbiru {
+    background-color: #0D1C37;
+    color: #ffffff;
+}
+
+.orang {
+    object-fit: cover;
+    width: 338px;
+    height: 309px;
+    border-radius: 10px;
+
+}
+
+.horizontal-scroll-wrapper {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 63px;
+    max-height: 1000px;
+    max-width: 500px;
+    background: #D9D9D9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg) translateY(-100px);
+    transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper>div {
+    width: 60px;
+    height: 300px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    transform: rotate(90deg);
+    transform-origin: right top;
+}
+
+.merk {
+    top: 100px;
+    padding: 100px 0 0 0;
+}
+
+.merk>div {
+    width: 130px;
+    height: 200px;
+    margin: 50px 10px;
+    padding: 5px;
+    transform: rotate(90deg) translateY(80px);
+    transform-origin: right top;
+}
