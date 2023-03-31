@@ -6,8 +6,10 @@ use App\Http\Controllers\galleryController;
 use App\Http\Controllers\contactController;
 use App\Http\Controllers\admingalleryController;
 use App\Http\Controllers\admincollectionController;
-// use App\Http\Controllers\AgresiaController;
+use App\Http\Controllers\loginController;
+use App\Http\Controllers\signupController;
 use Illuminate\Support\Facades\Route;
+// use App\Http\Controllers\AgresiaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +27,12 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // Route::get('/home', [AgresiaController::class, 'home']);
-Route::get('/home', [homeController::class, 'home']);
-Route::get('/collection', [collectionController::class, 'collection']);
-Route::get('/gallery', [galleryController::class, 'gallery']);
-Route::get('/contact', [contactController::class, 'contact']);
-Route::get('/admingallery', [admingalleryController::class, 'admingallery']);
-Route::get('/admincollection', [admincollectionController::class, 'admincollection']);
+Route::get('/home', [homeController::class, 'home'])->name('home');
+Route::get('/collection', [collectionController::class, 'collection'])->name('collection');
+Route::get('/gallery', [galleryController::class, 'gallery'])->name('gallery');
+Route::get('/contact', [contactController::class, 'contact'])->name('contact');
+Route::get('/admingallery', [admingalleryController::class, 'admingallery'])->name('admingallery');
+Route::get('/admincollection', [admincollectionController::class, 'admincollection'])->name('admincollection');
+Route::get('/adminsignup', [signupController::class, 'signup'])->name('adminsignup');
+Route::get('/adminlogin', [loginController::class, 'index'])->name('adminlogin');
+Route::get('/process-login', [loginController::class, 'login'])->name('process-login');
