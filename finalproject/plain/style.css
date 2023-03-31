@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logonav {
+    max-width: 600px;
+}
+
+.btnexplore {
+    color: #34A753;
+}
+
+.activenavbar {
+    font-weight: 900;
+    border-bottom: 2px solid #FD7B38;
+}
+
+.bgfooter {
+    background-image: url("/Exercise/finalproject/plain/assets/Group\ 17.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+    /* border: 1px solid red; */
+}
+
+.martop {
+    margin-top: 160px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul span {
+    padding-bottom: 10px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.fww {
+    font-weight: 600;
+
+}
+
+.imgabsolute1 {
+    background: url("/Exercise/finalproject/plain/assets/pic1.png");
+    background-position: center;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
+    position: absolute;
+    width: 442px;
+    height: 395px;
+    left: 935px;
+    top: 124px;
+}
+
+.imgabsolute2 {
+    background: url("/Exercise/finalproject/plain/assets/pic2.png");
+    background-position: center;
+    border: 15px solid white;
+    position: absolute;
+    width: 463px;
+    height: 316px;
+    left: 1107px;
+    top: 361px;
+}
+
+.bumper {
+    height: 800px;
+}
+
+.bgijo {
+    background-image: url("/Exercise/finalproject/plain/assets/Vector\ 2.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
+    min-height: 723px;
+}
+
+.oren {
+    color: #FD7B38;
+}
+
+/* private trip detail */
+.bungkusgambargede {
+    display: flex;
+    justify-content: center;
+}
+
+.gambargede {
+    width: 900px;
+    height: 443px;
+    /* background-image: url("/Exercise/finalproject/plain/assets/gambar1.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 443px;
+    border-radius: 10px; */
+}
+
+.gambargede img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.item {
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1c57b5;
+    margin: 5px;
+}
+
+.containergambar5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    /* display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(5, 138px);
+    grid-template-rows: repeat(5, 138px); */
+}
+
+.containergambar5 img {
+    width: 138px;
+    height: 138px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+/* private trip detail end */
+
+.cardputih {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 1rem;
+}
+
+/* horizontal separator */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* justify text */
+.justifytext {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* horizontal slider */
+.gallery {
+    background: #EEE;
+}
+
+.gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+/* .related {
+    width: 290px;
+    height: 372px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.related img {
+    background-image: url("/Exercise/finalproject/plain/assets/gambar1.png");
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.81%, rgba(0, 0, 0, 0.71) 100%);
+} */
+
+/* atribut yang sama */
+.bungkusgambarrelated,
+.bungkusgambarrelated2,
+.bungkusgambarrelated3,
+.bungkusgambarrelated4 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 10px;
+}
+
+/* atribut yang beda */
+.bungkusgambarrelated {
+    background-image: url("/Exercise/finalproject/plain/assets/gambar1.png");
+}
+
+.bungkusgambarrelated2 {
+    background-image: url("/Exercise/finalproject/plain/assets/gambar2.png");
+}
+
+.bungkusgambarrelated3 {
+    background-image: url("/Exercise/finalproject/plain/assets/gambar3.png");
+}
+
+.bungkusgambarrelated4 {
+    background-image: url("/Exercise/finalproject/plain/assets/gambar4.png");
+}
+
+/* card si gambar */
+.gambarrelated {
+    min-height: 372px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.81%, rgba(0, 0, 0, 0.71) 100%);
+}
+
+/* overlaying text */
+.overlay {
+    position: absolute;
+    bottom: 41px;
+    left: 16px;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
