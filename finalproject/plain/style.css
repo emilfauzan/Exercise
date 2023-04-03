@@ -3,10 +3,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
 }
 
 .logonav {
     max-width: 600px;
+}
+
+.oren {
+    color: #FD7B38;
 }
 
 .btnexplore {
@@ -25,11 +30,8 @@
     background-size: cover;
     background-position: top;
     object-fit: fill;
-    /* border: 1px solid red; */
-}
-
-.martop {
-    margin-top: 160px;
+    position: relative;
+    padding: 170px 0 30px 0;
 }
 
 ul,
@@ -50,46 +52,57 @@ li {
 
 }
 
+/* INDEX START */
 .imgabsolute1 {
-    background: url("/Exercise/finalproject/plain/assets/pic1.png");
+    background: url("/Exercise/finalproject/plain/assets/Image\ 1.png");
     background-position: center;
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
     position: absolute;
     width: 442px;
-    height: 395px;
-    left: 935px;
+    min-height: 395px;
+    right: 0;
     top: 124px;
+    z-index: -1;
 }
 
-.imgabsolute2 {
-    background: url("/Exercise/finalproject/plain/assets/pic2.png");
-    background-position: center;
-    border: 15px solid white;
-    position: absolute;
-    width: 463px;
-    height: 316px;
-    left: 1107px;
-    top: 361px;
+.static {
+    position: static;
 }
 
 .bumper {
-    height: 800px;
+    min-height: 500px;
 }
 
 .bgijo {
     background-image: url("/Exercise/finalproject/plain/assets/Vector\ 2.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center top;
-    min-height: 723px;
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+    position: relative;
+    padding: 170px 0 30px 0;
 }
 
-.oren {
-    color: #FD7B38;
+.bgijo1 {
+    background-color: #1A2C21;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px 20px 50px 70px;
+    position: relative;
 }
 
-/* private trip detail */
+.bgijo2 {
+    background-color: #0C5B21;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px 70px 20px 50px;
+    position: relative;
+}
+
+/* INDEX END */
+
+/* PRIVATE TRIP DETAIL START */
 .bungkusgambargede {
     display: flex;
     justify-content: center;
@@ -98,13 +111,6 @@ li {
 .gambargede {
     width: 900px;
     height: 443px;
-    /* background-image: url("/Exercise/finalproject/plain/assets/gambar1.png");
-    background-color: #ffffff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 443px;
-    border-radius: 10px; */
 }
 
 .gambargede img {
@@ -116,13 +122,17 @@ li {
         0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.item {
+.item,
+.item2,
+.item3,
+.item4 {
     border-radius: 10px;
     font-size: 2em;
     font-family: sans-serif;
     font-weight: bold;
     background-color: #1c57b5;
-    margin: 5px;
+    margin: 40px 10px;
+    cursor: pointer;
 }
 
 .containergambar5 {
@@ -130,10 +140,6 @@ li {
     justify-content: center;
     flex-wrap: wrap;
     margin: 2rem;
-    /* display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(5, 138px);
-    grid-template-rows: repeat(5, 138px); */
 }
 
 .containergambar5 img {
@@ -143,9 +149,9 @@ li {
     border-radius: 10px;
     margin: .5rem;
     cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
 }
-
-/* private trip detail end */
 
 .cardputih {
     background-color: white;
@@ -153,6 +159,10 @@ li {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
         0 6px 6px rgba(0, 0, 0, 0.23);
     padding: 1rem;
+}
+
+.cardputihtengah {
+    height: 500px;
 }
 
 /* horizontal separator */
@@ -170,6 +180,67 @@ hr {
 }
 
 /* horizontal slider */
+.wrapper {
+    max-height: 492px;
+    border: 1 px solid grey;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.wrapper .item,
+.wrapper .item2,
+.wrapper .item3,
+.wrapper .item4 {
+    min-width: 290px;
+    height: 352px;
+    line-height: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.item {
+    background: url("/Exercise/finalproject/plain/assets/pic3.png");
+}
+
+.item2 {
+    background: url("/Exercise/finalproject/plain/assets/pic4.png");
+}
+
+.item3 {
+    background: url("/Exercise/finalproject/plain/assets/pic5.png");
+}
+
+.item4 {
+    background: url("/Exercise/finalproject/plain/assets/pic6.png");
+}
+
+.wrapper .item h4,
+.wrapper .item2 h4,
+.wrapper .item3 h4,
+.wrapper .item4 h4 {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.wrapper .item p,
+.wrapper .item2 p,
+.wrapper .item3 p,
+.wrapper .item4 p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .gallery {
     background: #EEE;
 }
@@ -192,56 +263,8 @@ hr {
     color: white;
 }
 
-/* .related {
-    width: 290px;
-    height: 372px;
-    border-radius: 10px;
-    position: relative;
-}
-
-.related img {
-    background-image: url("/Exercise/finalproject/plain/assets/gambar1.png");
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
-        0 6px 6px rgba(0, 0, 0, 0.23);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.81%, rgba(0, 0, 0, 0.71) 100%);
-} */
-
-/* atribut yang sama */
-.bungkusgambarrelated,
-.bungkusgambarrelated2,
-.bungkusgambarrelated3,
-.bungkusgambarrelated4 {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    border-radius: 10px;
-}
-
-/* atribut yang beda */
-.bungkusgambarrelated {
-    background-image: url("/Exercise/finalproject/plain/assets/gambar1.png");
-}
-
-.bungkusgambarrelated2 {
-    background-image: url("/Exercise/finalproject/plain/assets/gambar2.png");
-}
-
-.bungkusgambarrelated3 {
-    background-image: url("/Exercise/finalproject/plain/assets/gambar3.png");
-}
-
-.bungkusgambarrelated4 {
-    background-image: url("/Exercise/finalproject/plain/assets/gambar4.png");
-}
-
 /* card si gambar */
 .gambarrelated {
-    min-height: 372px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -251,15 +274,10 @@ hr {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.81%, rgba(0, 0, 0, 0.71) 100%);
 }
 
-/* overlaying text */
-.overlay {
-    position: absolute;
-    bottom: 41px;
-    left: 16px;
-}
+/* PRIVATE RIP DETAIL END */
 
-.overlay2 {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
+/* ABOUT US START */
+
+
+
+/* ABOUT US END */
