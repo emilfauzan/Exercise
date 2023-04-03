@@ -31,8 +31,16 @@ Route::get('/home', [homeController::class, 'home'])->name('home');
 Route::get('/collection', [collectionController::class, 'collection'])->name('collection');
 Route::get('/gallery', [galleryController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [contactController::class, 'contact'])->name('contact');
-Route::get('/admingallery', [admingalleryController::class, 'admingallery'])->name('admingallery');
-Route::get('/admincollection', [admincollectionController::class, 'admincollection'])->name('admincollection');
-Route::get('/adminsignup', [signupController::class, 'signup'])->name('adminsignup');
-Route::get('/adminlogin', [loginController::class, 'index'])->name('adminlogin');
-Route::get('/process-login', [loginController::class, 'login'])->name('process-login');
+
+// LOGIN PROCESS
+// Route::get('/signup', [signupController::class, 'signup'])->name('signup');
+Route::post('/process-login', [loginController::class, 'login'])->name('process-login');
+Route::get('/login', [loginController::class, 'index'])->name('login');
+
+// ADMIN GROUP
+Route::prefix('admin')->middleware('isAdmin')->group(function () {
+    // Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    // ADMIN FUNCTIONS
+    Route::get('admingallery', [admingalleryController::class, 'admingallery'])->name('admingallery');
+    Route::get('admincollection', [admincollectionController::class, 'admincollection'])->name('admincollection');
+});

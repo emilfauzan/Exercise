@@ -13,7 +13,7 @@ class loginController extends Controller
 {
     public function index()
     {
-        return view('pages.adminlogin');
+        return view('pages.login');
     }
 
     public function login(Request $request)
@@ -25,16 +25,18 @@ class loginController extends Controller
             'password' => $data['password']
         ]);
 
+        // dd($response->body());
+
         $this->storeJwt($request, $result = json_decode($response->body()));
 
-        return redirect()->route('dashboard');
+        return redirect()->route('admingallery');
     }
 
     public function storeJwt(Request $request, $data)
     {
         try {
             $token_enc = Crypt::encryptString($data->access_token);
-            $request->session()->put(['token' => $token_enc, 'email' => $data->data->email]);
+            $request->session()->put(['token' => $token_enc, 'email' => $data->data->email, 'level' => $data->data->level]);
         } catch (Exception $e) {
             return $e;
         }
