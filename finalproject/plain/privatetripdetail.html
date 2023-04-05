@@ -54,7 +54,7 @@
                     </ul>
                 </div>
             </div>
-            <button type="button" class="col-md-1 col-12 btn btn-success">Register</button>
+            <button type="button" class="col-md-1 col-12 my-2 btn btn-success">Register</button>
         </div>
     </nav>
     <!-- end of navbar -->
@@ -114,17 +114,66 @@
                 </div>
             </div>
             <div class="col-md-8 col-12 my-3">
-                <button type="button" class="btn btn-success my-1 mx-2">Description</button>
-                <button type="button" class="btn btn-light my-1 m-2">What's Included?</button>
-                <p class="my-3 justifytext">If you're planning a trip to Bali, you might want to consider a visit to
-                    Nusa Penida. This beautifulisland is located southeast of Bali and is known for its stunning
-                    beaches, crystal clear waters, and picturesque landscapes. In this article, we'll take a closer look
-                    at Nusa Penida and provide you with some tips for planning your trip.
-                    <br><br> The easiest way to get to Nusa
-                    Penida is to take a fast boat from Sanur or Padang Bai. The journey takes approximately 45 minutes
-                    to 1 hour, depending on the sea conditions. You can also take a ferry from Padang Bai, which is
-                    cheaper but takes longer.
-                </p>
+                <button id="desc" type="button" target="1"
+                    class="single1 btn btn-success my-1 mx-2">Description</button>
+                <button id="incl" type="button" target="2" class="single2 btn btn-light my-1 m-2">What's
+                    Included?</button>
+
+                <section class="targetbox">
+                    <div class="target" id="div1">
+                        <p class="my-3 justifytext">If you're planning a trip to Bali, you might want to consider a
+                            visit to
+                            Nusa Penida. This beautifulisland is located southeast of Bali and is known for its stunning
+                            beaches, crystal clear waters, and picturesque landscapes. In this article, we'll take a
+                            closer
+                            look
+                            at Nusa Penida and provide you with some tips for planning your trip.
+                            <br><br> The easiest way to get to Nusa
+                            Penida is to take a fast boat from Sanur or Padang Bai. The journey takes approximately 45
+                            minutes
+                            to 1 hour, depending on the sea conditions. You can also take a ferry from Padang Bai, which
+                            is
+                            cheaper but takes longer.
+                        </p>
+                    </div>
+                    <div class="target" id="div2">
+                        <p class="my-3 justifytext">
+                            <span class="btnexplore"><i class="fas fa-award"></i> Featured Trip</span>
+                        <p>What you can get in private trip package:</p>
+                        <ul>
+                            <li><span> Customize Acomodation</span></li>
+                            <li>Any destination you want</li>
+                            <li>Trip with private group or solo trip</li>
+                            <li>Create any event you want (Gathering, Games, Meetings. etc)</li>
+                            <li>1 Day free (include vehicle)</li>
+                            <li>Guided by our agents</li>
+                        </ul>
+                        </p>
+                        <p class="my-3 justifytext">
+                            <span class="btnexplore"><i class="fas fa-car"></i> Acomodation</span>
+                        <p>Nusa Penida has a variety of accommodations to choose from, ranging from budget-friendly
+                            guesthouses
+                            to luxury resorts. Some popular options include:
+                        </p>
+                        <ul>
+                            <li>Semabu Hills Hotel Nusa Penida</li>
+                            <li>Daphila Cottage</li>
+                            <li>La Roja Bungalows</li>
+                            <li>Nusa Veranda Sunset Villas & Restaurant</li>
+                        </ul>
+                        </p>
+                        <p class="my-3 justifytext">
+                            <span class="btnexplore"><i class="fas fa-map-marked-alt"></i> Destination</span>
+                        <ul>
+                            <li>Visit Kelingking Beach</li>
+                            <li>Explore Angel's Billabong</li>
+                            <li>Snorkel at Crystal Bay</li>
+                            <li>Visit Broken Beach</li>
+                        </ul>
+                        </p>
+                    </div>
+                </section>
+
             </div>
         </div>
         <!-- end of private trip detail -->
@@ -280,10 +329,36 @@
     </div>
     <!-- footer end -->
 
-    <script>
+    <script type="text/javascript">
+        // display image onclick
         const changeImage = src => {
             document.getElementById('main').src = src
         }
+
+        // section show/hide onclick
+        const targetDiv1 = document.getElementById("div1");
+        const single1 = document.getElementById("desc");
+        single1.onclick = function () {
+            if (targetDiv1.style.display !== "none") {
+                targetDiv1.style.display = "none";
+                targetDiv2.style.display = "block";
+            } else {
+                targetDiv1.style.display = "block";
+                targetDiv2.style.display = "none";
+            }
+        };
+        const targetDiv2 = document.getElementById("div2");
+        const single2 = document.getElementById("incl");
+        single2.onclick = function () {
+            if (targetDiv2.style.display !== "none") {
+                targetDiv2.style.display = "none";
+                targetDiv1.style.display = "block";
+            } else {
+                targetDiv2.style.display = "block";
+                targetDiv1.style.display = "none";
+            }
+        };
+
     </script>
 </body>
 

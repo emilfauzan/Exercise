@@ -179,6 +179,11 @@ hr {
     text-justify: inter-word;
 }
 
+.targetbox {
+    margin: 6% 10%;
+    background: transparent;
+}
+
 /* horizontal slider */
 .wrapper {
     max-height: 492px;
