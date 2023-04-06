@@ -43,6 +43,11 @@
     border-bottom: 2px solid #FD7B38;
 }
 
+.bglight {
+    background-color: #ffffffbb;
+    border-radius: 10px;
+}
+
 .bgfooter {
     background-image: url("/Exercise/finalproject/plain/assets/Group\ 17.png");
     background-color: #ffffff;
@@ -452,7 +457,7 @@ hr {
 /* DESTINATION END */
 
 /* PACKAGE START */
-.imgabsolute2 {
+.imgabsolute3 {
     background: url("/Exercise/finalproject/plain/assets/Image\ 3.png");
     background-position: center;
     position: absolute;
