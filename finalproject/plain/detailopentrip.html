@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelark</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon"
+        href="https://www.vhv.rs/viewpic/hbmmihR_transparent-background-travel-icon-transparent-png-transparent-transparent/#">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/Dark logo.png" alt="">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <div>
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#" aria-current="page">Discovery</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link activenavbar" href="#">Destination</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Package</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button type="button" class="col-md-1 col-12 my-2 btn btn-success">Register</button>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- content start -->
+    <div class="container">
+        <h4 class="pt-5 mt-3">Bali</h4>
+        <div class="row row-cols-auto mb-4">
+            <div class="col d-flex">
+                <p class="my-1"><i class="fa-solid fa-tag"></i> Island/Adventure</p>
+            </div>
+            <div class="col d-flex">
+                <p class="my-1"><i class="fa-solid fa-location-dot"></i> Bali, Indonesia</p>
+            </div>
+            <div class="col d-flex">
+                <p class="my-1"><i class="fa-solid fa-location-dot"></i> Open Trip</p>
+            </div>
+        </div>
+
+        <!-- start of private trip detail -->
+        <div class="row">
+            <!-- gambar js start -->
+            <div class="col-md-8 col-12">
+                <div class="bungkusgambargede">
+                    <div class="gambargede">
+                        <img src="/Exercise/finalproject/plain/assets/gambar1.png" id="main" alt="Gallery image">
+                    </div>
+                </div>
+                <div class="containergambar5">
+                    <img src="/Exercise/finalproject/plain/assets/gambar1.png" onclick="changeImage(this.src)">
+                    <img src="/Exercise/finalproject/plain/assets/gambar3.png" onclick="changeImage(this.src)">
+                    <img src="/Exercise/finalproject/plain/assets/gambar4.png" onclick="changeImage(this.src)">
+                    <img src="/Exercise/finalproject/plain/assets/gambar5.png" onclick="changeImage(this.src)">
+                    <img src="/Exercise/finalproject/plain/assets/gambar6.png" onclick="changeImage(this.src)">
+                </div>
+            </div>
+            <!-- gambar js end -->
+
+            <div class="col-md-4 col-12">
+                <div class="cardputih">
+                    <h4>Destination Overview</h4>
+                    <div class="d-flex justify-content-between">
+                        <h4 class="fw-bold my-auto">Bali, Indonesia</h4>
+                        <span class="my-auto"> <i class="fas fa-star" style="color: #f4eb00;"></i> 4.5</span>
+                    </div>
+                    <p>69 Reviews</p>
+                    <br>
+                    <p>Price</p>
+                    <h4 class="fw-bold">Rp. 2.500.000 / Pax</h4>
+                    <br>
+                    <p>Duration</p>
+                    <h4 class="fw-bold">4 Days 3 Nights</h4>
+                    <br>
+                    <p>Pax available</p>
+                    <h4 class="fw-bold">20 pax lefts</h4>
+                    <button type="button" class="btn btn-success col-12">Book Now</button>
+                    <hr />
+                    <p class="text-center">Specials offer for new traveler 15 % off! <br>
+                        Valid until 5 August 2023.</p>
+                </div>
+            </div>
+            <div class="col-md-8 col-12 my-3">
+                <button id="desc" type="button" target="1"
+                    class="single1 btn btn-success my-1 mx-2">Description</button>
+                <button id="incl" type="button" target="2" class="single2 btn btn-light my-1 m-2">What's
+                    Included?</button>
+
+                <section class="targetbox">
+                    <div class="target" id="div1">
+                        <p class="my-3 justifytext">If you're planning a trip to Bali, you might want to consider a
+                            visit to
+                            Nusa Penida. This beautifulisland is located southeast of Bali and is known for its stunning
+                            beaches, crystal clear waters, and picturesque landscapes. In this article, we'll take a
+                            closer
+                            look
+                            at Nusa Penida and provide you with some tips for planning your trip.
+                            <br><br> The easiest way to get to Nusa
+                            Penida is to take a fast boat from Sanur or Padang Bai. The journey takes approximately 45
+                            minutes
+                            to 1 hour, depending on the sea conditions. You can also take a ferry from Padang Bai, which
+                            is
+                            cheaper but takes longer.
+                        </p>
+                    </div>
+                    <div class="target" id="div2">
+                        <p class="my-3 justifytext">
+                            <span class="btnexplore"><i class="fas fa-award"></i> Featured Trip</span>
+                        <p>What you can get in open trip package:</p>
+                        <ul>
+                            <li>Any destination you want</li>
+                            <li>Invite friends</li>
+                            <li>Meet another travelers</li>
+                            <li>Guided by our agents</li>
+                        </ul>
+                        </p>
+                        <p class="my-3 justifytext">
+                            <span class="btnexplore"><i class="fas fa-car"></i> Acomodation</span>
+                        <p>Nusa Penida has a variety of accommodations to choose from, ranging from budget-friendly
+                            guesthouses
+                            to luxury resorts. Some popular options include:
+                        </p>
+                        <ul>
+                            <li>Semabu Hills Hotel Nusa Penida</li>
+                            <li>Daphila Cottage</li>
+                            <li>La Roja Bungalows</li>
+                            <li>Nusa Veranda Sunset Villas & Restaurant</li>
+                        </ul>
+                        </p>
+                        <p class="my-3 justifytext">
+                            <span class="btnexplore"><i class="fas fa-map-marked-alt"></i> Destination</span>
+                        <ul>
+                            <li>Visit Kelingking Beach</li>
+                            <li>Explore Angel's Billabong</li>
+                            <li>Snorkel at Crystal Bay</li>
+                            <li>Visit Broken Beach</li>
+                        </ul>
+                        </p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!-- end of private trip detail -->
+
+        <!-- horizontal slider -->
+        <p class="oren mt-5 pt-5">Related</p>
+        <h4 class="fw-bold">Destination may you liked</h4>
+        <div class="wrapper text-white">
+            <div class="item">
+                <div class="gambarrelated">
+                    <h4>Kelungkung, Bali</h4><br>
+                    <p>Nusa Penida</p>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="gambarrelated">
+                    <h4>Pulau Komodo</h4><br>
+                    <p>Nusa Tenggara Timur</p>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="gambarrelated">
+                    <h4>Candi Bodobudur</h4><br>
+                    <p>Magelang, Jawa Tengah</p>
+                </div>
+            </div>
+            <div class="item4">
+                <div class="gambarrelated">
+                    <h4>Gunung Bromo</h4><br>
+                    <p>Tengger, Jawa Timur</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="gambarrelated">
+                    <h4>Nusa Penida</h4><br>
+                    <p>Kelungkung, Bali</p>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="gambarrelated">
+                    <h4>Pulau Komodo</h4><br>
+                    <p>Nusa Tenggara Timur</p>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="gambarrelated">
+                    <h4>Candi Bodobudur</h4><br>
+                    <p>Magelang, Jawa Tengah</p>
+                </div>
+            </div>
+            <div class="item4">
+                <div class="gambarrelated">
+                    <h4>Gunung Bromo</h4><br>
+                    <p>Tengger, Jawa Timur</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="gambarrelated">
+                    <h4>Nusa Penida</h4><br>
+                    <p>Kelungkung, Bali</p>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="gambarrelated">
+                    <h4>Pulau Komodo</h4><br>
+                    <p>Nusa Tenggara Timur</p>
+                </div>
+            </div>
+        </div>
+        <!-- end of horizontal slider -->
+
+        <!-- help -->
+        <div class="container">
+            <h3 class="fww btnexplore d-flex justify-content-center mt-5 pt-5">Need our help?</h3>
+            <p class="oren d-flex justify-content-center">Contact us freely to get any information you need.</p>
+
+            <form action="" method="POST" role="form">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="" placeholder="First Name">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Email</label>
+                    <input type="text" class="form-control mb-3" id="" placeholder="Email">
+                    <label for="exampleFormControlTextarea1" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control mb-3" id="" placeholder="Phone Number">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-success mb-5">Submit</button>
+            </form>
+        </div>
+        <!-- end of help -->
+
+        <!-- end of content -->
+    </div>
+    <!-- content end -->
+
+    <!-- footer start -->
+    <div class="bgfooter">
+        <div class="martop">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="d-flex mb-5">
+                        <div class="col-md-2 col-12">
+                            <ul><span class="fww">Menu</span>
+                                <li>Discovery</li>
+                                <li>Destination</li>
+                                <li>Package</li>
+                                <li>About us</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-12">
+                            <ul><span class="fww">Features</span>
+                                <li>Open Trip</li>
+                                <li>Private Trip</li>
+                                <li>Destination Trip</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-12">
+                            <ul><span class="fww">Travelark</span>
+                                <li>Need Help</li>
+                                <li>Bussiness Inquiry</li>
+                                <li>Who We Are</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <img src="/Exercise/finalproject/plain/assets/Light Logo.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <h3 class="d-flex float-right align-items-end">
+                            <i class="fab fa-youtube mr-3"></i>
+                            <i class="fab fa-facebook mr-3"></i>
+                            <i class="fab fa-instagram mr-3"></i>
+                        </h3>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <h5>Jakarta, Indonesia</h5>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <h5 class="float-right">Copyright © 2023 Travelark. Indonesia</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <script type="text/javascript">
+        // display image onclick
+        const changeImage = src => {
+            document.getElementById('main').src = src
+        }
+
+        // section show/hide onclick
+        const targetDiv1 = document.getElementById("div1");
+        const single1 = document.getElementById("desc");
+        single1.onclick = function () {
+            if (targetDiv1.style.display !== "none") {
+                targetDiv1.style.display = "none";
+                targetDiv2.style.display = "block";
+            } else {
+                targetDiv1.style.display = "block";
+                targetDiv2.style.display = "none";
+            }
+        };
+        const targetDiv2 = document.getElementById("div2");
+        const single2 = document.getElementById("incl");
+        single2.onclick = function () {
+            if (targetDiv2.style.display !== "none") {
+                targetDiv2.style.display = "none";
+                targetDiv1.style.display = "block";
+            } else {
+                targetDiv2.style.display = "block";
+                targetDiv1.style.display = "none";
+            }
+        };
+
+    </script>
+</body>
+
+
+</html>
