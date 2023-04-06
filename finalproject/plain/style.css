@@ -18,6 +18,26 @@
     color: #34A753;
 }
 
+.btnexplore2 {
+    color: #0C5B21;
+}
+
+.gelap {
+    color: #4D5A52;
+}
+
+.abu {
+    color: #BFBFBF;
+}
+
+.bgwarnaijo {
+    background-color: #0C5B21;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
 .activenavbar {
     font-weight: 900;
     border-bottom: 2px solid #FD7B38;
@@ -49,8 +69,15 @@ li {
 
 .fww {
     font-weight: 600;
-
 }
+
+/* Footer start */
+.wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* Footer end */
 
 /* INDEX START */
 .imgabsolute1 {
@@ -84,12 +111,62 @@ li {
     padding: 170px 0 30px 0;
 }
 
+.bgijoflip {
+    background-image: url("/Exercise/finalproject/plain/assets/Vector\ 3.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: fill;
+    position: relative;
+    padding: 100px 0 180px 0;
+}
+
 .bgijo1 {
     background-color: #1A2C21;
     border-radius: 10px;
     padding: 30px;
     margin: 50px 20px 50px 70px;
     position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.clouds1,
+.clouds2,
+.clouds3,
+.clouds4,
+.clouds5 {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    font-size: .8em;
+}
+
+.clouds1 {
+    right: 3%;
+    top: 7%;
+}
+
+.clouds2 {
+    right: 7%;
+    top: 20%;
+}
+
+.clouds3 {
+    right: 2%;
+    top: 32%;
+}
+
+.clouds4 {
+    right: 12%;
+    top: 10%;
+}
+
+.clouds5 {
+    right: 17%;
+    top: 18%;
 }
 
 .bgijo2 {
@@ -98,6 +175,8 @@ li {
     padding: 30px;
     margin: 50px 70px 20px 50px;
     position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* INDEX END */
@@ -125,7 +204,11 @@ li {
 .item,
 .item2,
 .item3,
-.item4 {
+.item4,
+.item5,
+.item6,
+.item7,
+.item8 {
     border-radius: 10px;
     font-size: 2em;
     font-family: sans-serif;
@@ -179,6 +262,11 @@ hr {
     text-justify: inter-word;
 }
 
+.targetbox {
+    margin: 6% 10%;
+    background: transparent;
+}
+
 /* horizontal slider */
 .wrapper {
     max-height: 492px;
@@ -188,10 +276,30 @@ hr {
     overflow-y: hidden;
 }
 
+/* Wrapper */
 .wrapper .item,
 .wrapper .item2,
-.wrapper .item3,
-.wrapper .item4 {
+.wrapper .item3 {
+    min-width: 290px;
+    height: 352px;
+    line-height: 100px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+        0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Wrapper2 */
+.wrapper2 .item,
+.wrapper2 .item2,
+.wrapper2 .item3,
+.wrapper2 .item4,
+.wrapper2 .item5,
+.wrapper2 .item6,
+.wrapper2 .item7,
+.wrapper2 .item8 {
     min-width: 290px;
     height: 352px;
     line-height: 100px;
@@ -219,6 +327,23 @@ hr {
     background: url("/Exercise/finalproject/plain/assets/pic6.png");
 }
 
+.item5 {
+    background: url("/Exercise/finalproject/plain/assets/img1.png");
+}
+
+.item6 {
+    background: url("/Exercise/finalproject/plain/assets/img2.png");
+}
+
+.item7 {
+    background: url("/Exercise/finalproject/plain/assets/img3.png");
+}
+
+.item8 {
+    background: url("/Exercise/finalproject/plain/assets/img4.png");
+}
+
+/* Kelas Wrapper */
 .wrapper .item h4,
 .wrapper .item2 h4,
 .wrapper .item3 h4,
@@ -234,6 +359,37 @@ hr {
 .wrapper .item2 p,
 .wrapper .item3 p,
 .wrapper .item4 p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Kelas Wrapper2 */
+.wrapper2 .item h4,
+.wrapper2 .item2 h4,
+.wrapper2 .item3 h4,
+.wrapper2 .item4 h4,
+.wrapper2 .item5 h4,
+.wrapper2 .item6 h4,
+.wrapper2 .item7 h4,
+.wrapper2 .item8 h4 {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.wrapper2 .item p,
+.wrapper2 .item2 p,
+.wrapper2 .item3 p,
+.wrapper2 .item4 p,
+.wrapper2 .item5 p,
+.wrapper2 .item6 p,
+.wrapper2 .item7 p,
+.wrapper2 .item8 p {
     position: absolute;
     bottom: 8px;
     left: 16px;
@@ -276,8 +432,49 @@ hr {
 
 /* PRIVATE RIP DETAIL END */
 
-/* ABOUT US START */
+/* DESTINATION START */
 
+.imgabsolute2 {
+    background: url("/Exercise/finalproject/plain/assets/Image\ 2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 442px;
+    min-height: 395px;
+    /* left: 1200px; */
+    right: 0;
+    top: 124px;
+    z-index: -1;
 
+}
 
-/* ABOUT US END */
+/* DESTINATION END */
+
+/* PACKAGE START */
+.imgabsolute2 {
+    background: url("/Exercise/finalproject/plain/assets/Image\ 3.png");
+    background-position: center;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 442px;
+    min-height: 395px;
+    right: 0;
+    top: 124px;
+    z-index: -1;
+}
+
+/* PACKAGE END */
+
+/* ABOUTUS START */
+.imggedung {
+    background: url("/Exercise/finalproject/plain/assets/Image\ 4.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 442px;
+    min-height: 395px;
+}
+
+/* ABOUTUS END */
