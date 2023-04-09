@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .logonav {
@@ -49,7 +49,7 @@
 }
 
 .bgfooter {
-    background-image: url("/Exercise/finalproject/plain/assets/Group\ 17.png");
+    background-image: url("../img/Group\ 17.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,9 +86,10 @@ li {
 
 /* INDEX START */
 .imgabsolute1 {
-    background: url("/Exercise/finalproject/plain/assets/Image\ 1.png");
+    background: url("../img/Image\ 1.png");
     background-position: center;
-    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 38%);
+    background-repeat: no-repeat;
     position: absolute;
     width: 442px;
     min-height: 395px;
@@ -106,7 +107,7 @@ li {
 }
 
 .bgijo {
-    background-image: url("/Exercise/finalproject/plain/assets/Vector\ 2.png");
+    background-image: url("../img/Vector\ 2.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +118,7 @@ li {
 }
 
 .bgijoflip {
-    background-image: url("/Exercise/finalproject/plain/assets/Vector\ 3.png");
+    background-image: url("../img/Vector\ 3.png");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +251,7 @@ li {
 }
 
 .cardputihtengah {
-    height: 500px;
+    max-height: 500px;
 }
 
 /* horizontal separator */
@@ -311,41 +312,41 @@ hr {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
         0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .item {
-    background: url("/Exercise/finalproject/plain/assets/pic3.png");
+    background: url("../img/pic3.png");
 }
 
 .item2 {
-    background: url("/Exercise/finalproject/plain/assets/pic4.png");
+    background: url("../img/pic4.png");
 }
 
 .item3 {
-    background: url("/Exercise/finalproject/plain/assets/pic5.png");
+    background: url("../img/pic5.png");
 }
 
 .item4 {
-    background: url("/Exercise/finalproject/plain/assets/pic6.png");
+    background: url("../img/pic6.png");
 }
 
 .item5 {
-    background: url("/Exercise/finalproject/plain/assets/img1.png");
+    background: url("../img/img1.png");
 }
 
 .item6 {
-    background: url("/Exercise/finalproject/plain/assets/img2.png");
+    background: url("../img/img2.png");
 }
 
 .item7 {
-    background: url("/Exercise/finalproject/plain/assets/img3.png");
+    background: url("../img/img3.png");
 }
 
 .item8 {
-    background: url("/Exercise/finalproject/plain/assets/img4.png");
+    background: url("../img/img4.png");
 }
 
 /* Kelas Wrapper */
@@ -440,7 +441,7 @@ hr {
 /* DESTINATION START */
 
 .imgabsolute2 {
-    background: url("/Exercise/finalproject/plain/assets/Image\ 2.png");
+    background: url("../img/Image\ 2.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -458,7 +459,7 @@ hr {
 
 /* PACKAGE START */
 .imgabsolute3 {
-    background: url("/Exercise/finalproject/plain/assets/Image\ 3.png");
+    background: url("../img/Image\ 3.png");
     background-position: center;
     position: absolute;
     background-size: contain;
@@ -474,7 +475,7 @@ hr {
 
 /* ABOUTUS START */
 .imggedung {
-    background: url("/Exercise/finalproject/plain/assets/Image\ 4.png");
+    background: url("../img/Image\ 4.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
