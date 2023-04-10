@@ -16,7 +16,9 @@ class Home extends React.Component {
                                 className="fa-regular fa-circle-right btnexplore"></i>
                             </h5>
                         </div>
-                        <div className="imgabsolute1">
+                        <div className="col-md-4">
+                            <div className="imgabsolute1">
+                            </div>
                         </div>
                     </div>
 
@@ -28,7 +30,7 @@ class Home extends React.Component {
                             <button type="button" className=" btn btn-success px-5">See all</button>
                         </div>
                         <div className="row text-white wrapper2">
-                            <div className="col-xxl-3 col-12">
+                            <div className="col-xxl-3 col-md-6 col-12">
                                 <div className="item">
                                     <div className="gambarrelated">
                                         <h4>Nusa Penida</h4><br />
@@ -36,7 +38,7 @@ class Home extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-3 col-12">
+                            <div className="col-xxl-3 col-md-6 col-12">
                                 <div className="item2">
                                     <div className="gambarrelated">
                                         <h4>Pulau Komodo</h4><br />
@@ -44,7 +46,7 @@ class Home extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-3 col-12">
+                            <div className="col-xxl-3 col-md-6 col-12">
                                 <div className="item3">
                                     <div className="gambarrelated">
                                         <h4>Candi Bodobudur</h4><br />
@@ -52,7 +54,7 @@ class Home extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xxl-3 col-12">
+                            <div className="col-xxl-3 col-md-6 col-12">
                                 <div className="item4">
                                     <div className="gambarrelated">
                                         <h4>Gunung Bromo</h4><br />

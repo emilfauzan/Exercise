@@ -1,4 +1,5 @@
 import React from 'react'
+import image from '../../img/Light Logo.png';
 
 function Footer() {
     return (
@@ -7,7 +8,7 @@ function Footer() {
             <div class="bgfooter">
                 <div class="martop">
                     <div class="container">
-                        <div class="row text-white">
+                        <div class="row text-white footerresponsive">
                             <div class="d-flex mb-5 wrap">
                                 <div class="col-md-2 col-12">
                                     <ul><span class="fww">Menu</span>
@@ -33,7 +34,7 @@ function Footer() {
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
-                                <img src='../img/Light Logo.png' alt="" />
+                                <img src={image} alt="" />
                             </div>
                             <div class="col-md-6 col-12">
                                 <h3 class="d-flex float-right align-items-end">

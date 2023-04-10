@@ -1,4 +1,7 @@
 import React from 'react'
+import image1 from '../img/card1.png';
+import image2 from '../img/card2.png';
+import image3 from '../img/card3.png';
 
 function Aboutus() {
     return (
@@ -38,10 +41,10 @@ function Aboutus() {
                             </div>
                             <div class="col-md-6 col-12 text-white">
                                 <div class="row d-flex">
-                                    <div class="col-md-6 col-12 my-3">
+                                    <div class="col-xl-6 col-12 my-3">
                                         <div class="cardputih">
                                             <div class="d-flex mb-2">
-                                                <img class="my-auto mr-2" src="../img/card1.png"
+                                                <img class="my-auto mr-2" src={image1}
                                                     alt="" />
                                                 <h4 class="my-auto oren fww">Innovations</h4>
                                             </div>
@@ -50,14 +53,14 @@ function Aboutus() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-12 my-3">
+                                    <div class="col-xl-6 col-12 my-3">
                                         <div class="row">
                                             <div class="col">
                                                 <div class="cardputihtengah">
                                                     <div class="cardputih ">
                                                         <div class="d-flex mb-2">
                                                             <img class="my-auto mr-2"
-                                                                src="../img/card2.png" alt="" />
+                                                                src={image2} alt="" />
                                                             <h4 class="my-auto oren fww">Out Ethics</h4>
                                                         </div>
                                                         <p class="text-dark">
@@ -68,10 +71,10 @@ function Aboutus() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-12 my-3">
+                                    <div class="col-xl-6 col-12 my-3">
                                         <div class="cardputih">
                                             <div class="d-flex mb-2">
-                                                <img class="my-auto mr-2" src="../img/card3.png"
+                                                <img class="my-auto mr-2" src={image3}
                                                     alt="" />
                                                 <h4 class="my-auto oren fww">Responsibility</h4>
                                             </div>
@@ -80,10 +83,10 @@ function Aboutus() {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-12 my-3">
+                                    <div class="col-xl-6 col-12 my-3">
                                         <div class="cardputih">
                                             <div class="d-flex mb-2">
-                                                <img class="my-auto mr-2" src="../img/card3.png"
+                                                <img class="my-auto mr-2" src={image3}
                                                     alt="" />
                                                 <h4 class="my-auto oren fww">Responsibility</h4>
                                             </div>
@@ -143,7 +146,7 @@ function Aboutus() {
                     <button type="button" class=" btn btn-success px-5">See all</button>
                 </div>
                 <div class="row text-white wrapper2">
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item">
                             <div class="gambarrelated">
                                 <h4>Nusa Penida</h4><br />
@@ -151,7 +154,7 @@ function Aboutus() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item2">
                             <div class="gambarrelated">
                                 <h4>Pulau Komodo</h4><br />
@@ -159,7 +162,7 @@ function Aboutus() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item3">
                             <div class="gambarrelated">
                                 <h4>Candi Bodobudur</h4><br />
@@ -167,7 +170,7 @@ function Aboutus() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item4">
                             <div class="gambarrelated">
                                 <h4>Gunung Bromo</h4><br />

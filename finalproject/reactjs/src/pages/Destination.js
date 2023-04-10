@@ -15,7 +15,9 @@ function Destination() {
                             class="fa-regular fa-circle-right btnexplore"></i>
                         </h5>
                     </div>
-                    <div class="imgabsolute2">
+                    <div className="col-md-4">
+                        <div class="imgabsolute2">
+                        </div>
                     </div>
                 </div>
 
@@ -85,7 +87,7 @@ function Destination() {
                 <p class="oren fww text-center">More than one destination you will visit</p>
                 <div class="row text-white">
                     <div class="col-md-6 col-12">
-                        <div class="bgijo1">
+                        <div class="bgijo1 ms-md-4">
                             <span class="oren">1st Package</span>
                             <h4 class="fww mb-3">Private Trip</h4>
                             <p>Enjoy the luxury of having your own private guide, who will take you to hidden gems and
@@ -98,7 +100,7 @@ function Destination() {
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
-                        <div class="bgijo2">
+                        <div class="bgijo2 me-md-4">
                             <span>2st Package</span>
                             <h4 class="oren fww mb-3">Open Trip</h4>
                             <p>With an open trip, you'll have the opportunity to connect with travelers from all over the world,
@@ -117,7 +119,7 @@ function Destination() {
                 <h3 class="btnexplore2 fww text-center mt-5">Wonderful Destination</h3>
                 <p class="oren fww text-center">More than just destination</p>
                 <div class="row text-white wrapper2">
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item">
                             <div class="gambarrelated">
                                 <h4>Nusa Penida</h4><br />
@@ -125,7 +127,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item2">
                             <div class="gambarrelated">
                                 <h4>Pulau Komodo</h4><br />
@@ -133,7 +135,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item3">
                             <div class="gambarrelated">
                                 <h4>Candi Bodobudur</h4><br />
@@ -141,7 +143,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item4">
                             <div class="gambarrelated">
                                 <h4>Gunung Bromo</h4><br />
@@ -149,7 +151,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item">
                             <div class="gambarrelated">
                                 <h4>Nusa Penida</h4><br />
@@ -157,7 +159,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item2">
                             <div class="gambarrelated">
                                 <h4>Pulau Komodo</h4><br />
@@ -165,7 +167,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item3">
                             <div class="gambarrelated">
                                 <h4>Candi Bodobudur</h4><br />
@@ -173,7 +175,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item4">
                             <div class="gambarrelated">
                                 <h4>Gunung Bromo</h4><br />
@@ -181,7 +183,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item">
                             <div class="gambarrelated">
                                 <h4>Nusa Penida</h4><br />
@@ -189,7 +191,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item2">
                             <div class="gambarrelated">
                                 <h4>Pulau Komodo</h4><br />
@@ -197,7 +199,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item3">
                             <div class="gambarrelated">
                                 <h4>Candi Bodobudur</h4><br />
@@ -205,7 +207,7 @@ function Destination() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item4">
                             <div class="gambarrelated">
                                 <h4>Gunung Bromo</h4><br />

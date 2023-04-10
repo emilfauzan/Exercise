@@ -6,6 +6,10 @@
     /* border: 1px solid red; */
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .logonav {
     max-width: 600px;
 }
@@ -59,6 +63,14 @@
     padding: 170px 0 30px 0;
 }
 
+@media (min-width: 768px) {
+    .footerresponsive {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
 ul,
 li {
     list-style: none;
@@ -88,12 +100,12 @@ li {
 .imgabsolute1 {
     background: url("../img/Image\ 1.png");
     background-position: center;
-    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 38%);
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 0 100%, 0% 25%);
     background-repeat: no-repeat;
     position: absolute;
-    width: 442px;
+    min-width: 442px;
     min-height: 395px;
-    right: 0;
+    right: -3%;
     top: 124px;
     z-index: -1;
 }
@@ -132,10 +144,11 @@ li {
     background-color: #1A2C21;
     border-radius: 10px;
     padding: 30px;
-    margin: 50px 20px 50px 70px;
+    margin: 50px 0 50px 0;
     position: relative;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
         0 6px 6px rgba(0, 0, 0, 0.23);
+    min-height: 230px;
 }
 
 .clouds1,
@@ -179,10 +192,11 @@ li {
     background-color: #0C5B21;
     border-radius: 10px;
     padding: 30px;
-    margin: 50px 70px 20px 50px;
+    margin: 50px 0 20px 0;
     position: relative;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
         0 6px 6px rgba(0, 0, 0, 0.23);
+    min-height: 230px;
 }
 
 /* INDEX END */
@@ -443,16 +457,14 @@ hr {
 .imgabsolute2 {
     background: url("../img/Image\ 2.png");
     background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: contain;
     position: absolute;
-    width: 442px;
+    min-width: 442px;
     min-height: 395px;
-    /* left: 1200px; */
-    right: 0;
+    right: -6%;
     top: 124px;
     z-index: -1;
-
 }
 
 /* DESTINATION END */
@@ -461,12 +473,12 @@ hr {
 .imgabsolute3 {
     background: url("../img/Image\ 3.png");
     background-position: center;
-    position: absolute;
-    background-size: contain;
     background-repeat: no-repeat;
-    width: 442px;
+    background-size: contain;
+    position: absolute;
+    min-width: 442px;
     min-height: 395px;
-    right: 0;
+    right: -4%;
     top: 124px;
     z-index: -1;
 }

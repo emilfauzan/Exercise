@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import image from '../../img/Dark logo.png';
 
 function Navbar() {
     return (
         <div>
             {/* <!-- navbar --> */}
-            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <Link to="/" class="navbar-brand">
-                        <img src={'../img/Dark logo.png'} alt="Travelark" />
+                        <img src={image} alt="Travelark" />
                     </Link>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"

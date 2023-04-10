@@ -15,7 +15,9 @@ function Package() {
                             class="fa-regular fa-circle-right btnexplore"></i>
                         </h5>
                     </div>
-                    <div class="imgabsolute3">
+                    <div className="col-md-4">
+                        <div class="imgabsolute3">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,7 +53,7 @@ function Package() {
                 <h3 class="fww text-center pt-5 mt-5">Wonderful Destination</h3>
                 <p class="oren fww text-center">More than just destination</p>
                 <div class="row text-white wrapper2">
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item5">
                             <div class="gambarrelated">
                                 <h4>Nusa Penida</h4><br />
@@ -59,7 +61,7 @@ function Package() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item6">
                             <div class="gambarrelated">
                                 <h4>Pulau Komodo</h4><br />
@@ -67,7 +69,7 @@ function Package() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item7">
                             <div class="gambarrelated">
                                 <h4>Candi Bodobudur</h4><br />
@@ -75,7 +77,7 @@ function Package() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-12">
+                    <div class="col-xxl-3 col-md-6 col-12">
                         <div class="item8">
                             <div class="gambarrelated">
                                 <h4>Gunung Bromo</h4><br />
@@ -122,7 +124,7 @@ function Package() {
                     <h3 class="fww text-center pt-5 mt-5">Wonderful Destination</h3>
                     <p class="oren fww text-center">More than just destination</p>
                     <div class="row text-white wrapper2">
-                        <div class="col-xl-3 col-12">
+                        <div class="col-xxl-3 col-md-6 col-12">
                             <div class="item5">
                                 <div class="gambarrelated">
                                     <h4>Nusa Penida</h4><br />
@@ -130,7 +132,7 @@ function Package() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-12">
+                        <div class="col-xxl-3 col-md-6 col-12">
                             <div class="item6">
                                 <div class="gambarrelated">
                                     <h4>Pulau Komodo</h4><br />
@@ -138,7 +140,7 @@ function Package() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-12">
+                        <div class="col-xxl-3 col-md-6 col-12">
                             <div class="item7">
                                 <div class="gambarrelated">
                                     <h4>Candi Bodobudur</h4><br />
@@ -146,7 +148,7 @@ function Package() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-12">
+                        <div class="col-xxl-3 col-md-6 col-12">
                             <div class="item8">
                                 <div class="gambarrelated">
                                     <h4>Gunung Bromo</h4><br />
