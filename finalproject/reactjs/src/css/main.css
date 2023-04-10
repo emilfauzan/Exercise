@@ -42,9 +42,22 @@ body {
     cursor: pointer;
 }
 
-.activenavbar {
-    font-weight: 900;
+#navbar a {
+    font-style: unset;
+    text-decoration: none;
+    color: #8F8F8F;
+    transition: .4s;
+}
+
+#navbar a.active li {
     border-bottom: 2px solid #FD7B38;
+    color: #0C5B21;
+}
+
+#navbar a:hover {
+    /* border-bottom: 1px solid #FD7B38; */
+    color: #0C5B21;
+    transition: .5s;
 }
 
 .bglight {
