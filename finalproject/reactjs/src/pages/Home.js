@@ -126,7 +126,7 @@ class Home extends React.Component {
                                         </div>
                                         <div className="col-md-6 col-12 my-3">
                                             <div className="cardputih">
-                                                <div className="d-flex mbb">
+                                                <div className="d-flex mb-2">
                                                     <img className="my-auto mr-2" src={require('../img/card3.png')}
                                                         alt="" />
                                                     <h4 className="my-auto oren fww">Responsibility</h4>
