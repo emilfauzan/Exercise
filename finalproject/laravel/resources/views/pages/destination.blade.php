@@ -14,7 +14,7 @@ Travelark - Destination
                 everyone. Explore ancient ruins and towering mountains, relax on pristine beaches and turquoise
                 waters, or indulge in local cuisine and vibrant nightlife.</p>
             <h5 class="btnexplore mt-5 pointer fww">
-                <a class="nav-link text-success" href="{{ route('destinationcheckout') }}">Explore Now <i class="fa-regular fa-circle-right btnexplore"></i></a>
+                <a class="nav-link text-success" href="{{ route('destinationdetail') }}">Explore Now <i class="fa-regular fa-circle-right btnexplore"></i></a>
 
             </h5>
         </div>

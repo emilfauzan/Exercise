@@ -12,10 +12,10 @@ Travelark - Login
         </div>
         <div class="col-6 align-items-center">
             <form class="user" action="{{ route('process-login') }}" method="POST">
-                @crsf
+                @csrf
                 <div class="form-group my-3">
-                    <label for="email" class="form-label text-white">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="email@example.com" name="email">
+                    <label for="username" class="form-label text-white">Username</label>
+                    <input type="username" class="form-control" id="username" placeholder="username@example.com" name="username">
                 </div>
                 <div class="form-group my-3">
                     <label for="password" class="form-label text-white">Password</label>

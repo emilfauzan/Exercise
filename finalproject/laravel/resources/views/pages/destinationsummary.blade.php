@@ -27,7 +27,7 @@ Travelark - Destination Summary
     <div class="row mx-5">
         <div class="col-4">
             <button type="button" class="btn" style="font-size: 20px; color: #34a753">
-                <a class="nav-link text-white" href="{{ route('destinationcheckout') }}">Back</a>
+                <a class="nav-link text-success" href="{{ route('destinationcheckout') }}">Back</a>
             </button>
         </div>
         <div class="col-4 text-center pt-3">
@@ -48,10 +48,9 @@ Travelark - Destination Summary
                 <div class="card mt-2 ">
                     <table class="table caption-top mt-2">
                         <thead>
-                            <img src="../../../public/images/img1.png">
                             <tr>
+                                <img src="{{asset('images/img1.png')}}" width="10%">
                             </tr>
-                            <img src="../../../public/images/Rectangle 59.png" alt="" />
                             <div class="container-fluid">
                                 <div class="row mt-6">
                                     <div class="col-lg-8 col-sm-6 mt-5 pt-2 d-flex ">

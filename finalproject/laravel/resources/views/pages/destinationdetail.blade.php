@@ -24,15 +24,15 @@ Travelark - Destination Detail
         <div class="col-md-8 col-12">
             <div class="bungkusgambargede">
                 <div class="gambargede">
-                    <img src="../../../public/images/gambar1.png" id="main" alt="Gallery image">
+                    <img src="{{asset('images/gambar1.png')}}" id="main" alt="Gallery image">
                 </div>
             </div>
             <div class="containergambar5">
-                <img src="../../../public/images/gambar2.png" onclick="changeImage(this.src)">
-                <img src="../../../public/images/gambar3.png" onclick="changeImage(this.src)">
-                <img src="../../../public/images/gambar4.png" onclick="changeImage(this.src)">
-                <img src="../../../public/images/gambar5.png" onclick="changeImage(this.src)">
-                <img src="../../../public/images/gambar6.png" onclick="changeImage(this.src)">
+                <img src="{{asset('images/gambar2.png')}}" onclick="changeImage(this.src)">
+                <img src="{{asset('images/gambar3.png')}}" onclick="changeImage(this.src)">
+                <img src="{{asset('images/gambar4.png')}}" onclick="changeImage(this.src)">
+                <img src="{{asset('images/gambar5.png')}}" onclick="changeImage(this.src)">
+                <img src="{{asset('images/gambar6.png')}}" onclick="changeImage(this.src)">
             </div>
         </div>
         <!-- gambar js end -->
@@ -131,12 +131,6 @@ Travelark - Destination Detail
                 <p>Magelang, Jawa Tengah</p>
             </div>
         </div>
-        <div class="item4">
-            <div class="gambarrelated">
-                <h4>Gunung Bromo</h4><br>
-                <p>Tengger, Jawa Timur</p>
-            </div>
-        </div>
         <div class="item">
             <div class="gambarrelated">
                 <h4>Nusa Penida</h4><br>
@@ -153,12 +147,6 @@ Travelark - Destination Detail
             <div class="gambarrelated">
                 <h4>Candi Bodobudur</h4><br>
                 <p>Magelang, Jawa Tengah</p>
-            </div>
-        </div>
-        <div class="item4">
-            <div class="gambarrelated">
-                <h4>Gunung Bromo</h4><br>
-                <p>Tengger, Jawa Timur</p>
             </div>
         </div>
         <div class="item">

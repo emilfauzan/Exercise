@@ -13,7 +13,7 @@ Travelark - Destination Checkout
     <div class="row mx-5">
         <div class="col-4">
             <button type="button" class="btn" style="font-size: 20px; color: #34a753"></i>
-                <a class="nav-link text-white" href="{{ route('destination') }}">Back</a>
+                <a class="nav-link text-success" href="{{ route('destination') }}">Back</a>
             </button>
         </div>
 
@@ -36,7 +36,7 @@ Travelark - Destination Checkout
                 <h6 class="card-header" style="background-color: white">Travel order</h6>
                 <div class="card-body d-flex">
                     <div class="col m-auto d-flex">
-                        <img src="image/Rectangle 59.png" alt="" />
+                        <!-- <img src="{{asset('images/gambar1.png')}}" alt="" /> -->
                         <p style="padding-left: 10px; margin: 5px"><span style="font-weight: bolder">Nusa Penida, Bali </span><br />Destination</p>
                     </div>
                     <div class="col m-auto text-center pt-2">
