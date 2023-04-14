@@ -9,6 +9,12 @@
 
     <title>@yield('title')</title>
 
+    <style>
+        body {
+            padding-top: 5%;
+        }
+    </style>
+
 </head>
 
 <body>

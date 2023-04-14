@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DiscoveryController;
 use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\PackageController;
@@ -8,9 +8,6 @@ use App\Http\Controllers\AboutusController;
 use App\Http\Controllers\DestinationDetailController;
 use App\Http\Controllers\PrivateTripDetailController;
 use App\Http\Controllers\OpenTripDetailController;
-use App\Http\Controllers\DestinationCheckoutController;
-use App\Http\Controllers\DestinationSummaryController;
-use App\Http\Controllers\DestinationSuccessController;
 use App\Http\Controllers\PrivateTripCheckoutController;
 use App\Http\Controllers\PrivateTripSummaryController;
 use App\Http\Controllers\PrivateTripSuccessController;
@@ -35,27 +32,29 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login-dashboard', [AuthController::class, 'index'])->name('login-dashboard');
+Route::get('/auth', [AuthController::class, 'index'])->name('auth');
 Route::post('/process-login', [AuthController::class, 'login'])->name('process-login');
 
 
-Route::get('/', [HomeController::class, 'index'])->name('discovery');
-Route::get('/destination', [HomeController::class, 'index'])->name('destination');
-Route::get('/package', [HomeController::class, 'index'])->name('package');
-Route::get('/aboutus', [HomeController::class, 'index'])->name('aboutus');
-Route::get('/destinationdetail', [HomeController::class, 'index'])->name('destinationdetail');
-Route::get('/privatetripdetail', [HomeController::class, 'index'])->name('privatetripdetail');
-Route::get('/opentripdetail', [HomeController::class, 'index'])->name('opentripdetail');
-Route::get('/destinationcheckout', [HomeController::class, 'index'])->name('destinationcheckout');
-Route::get('/destinationsummary', [HomeController::class, 'index'])->name('destinationsummary');
-Route::get('/destinationsuccess', [HomeController::class, 'index'])->name('destinationsuccess');
-Route::get('/privatetripcheckout', [HomeController::class, 'index'])->name('privatetripcheckout');
-Route::get('/privatetripsummary', [HomeController::class, 'index'])->name('privatetripsummary');
-Route::get('/privatetripsuccess', [HomeController::class, 'index'])->name('privatetripsuccess');
-Route::get('/opentripcheckout', [HomeController::class, 'index'])->name('opentripcheckout');
-Route::get('/opentripsummary', [HomeController::class, 'index'])->name('opentripsummary');
-Route::get('/opentripsuccess', [HomeController::class, 'index'])->name('opentripsuccess');
+Route::get('/', [DiscoveryController::class, 'index'])->name('discovery');
+Route::get('/destination', [DestinationController::class, 'index'])->name('destination');
+Route::get('/package', [PackageController::class, 'index'])->name('package');
+Route::get('/aboutus', [AboutusController::class, 'index'])->name('aboutus');
+Route::get('/destinationdetail', [DestinationdetailController::class, 'index'])->name('destinationdetail');
 
-Route::prefix('admin')->middleware('administrator')->group(function () {
-    Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
-});
+Route::get('/destinationcheckout', [DestinationdetailController::class, 'checkout'])->name('destinationcheckout');
+Route::get('/destinationsummary', [DestinationdetailController::class, 'summary'])->name('destinationsummary');
+Route::get('/destinationsuccess', [DestinationdetailController::class, 'success'])->name('destinationsuccess');
+
+Route::get('/privatetripdetail', [PrivatetripdetailController::class, 'index'])->name('privatetripdetail');
+Route::get('/opentripdetail', [OpentripdetailController::class, 'index'])->name('opentripdetail');
+Route::get('/privatetripcheckout', [PrivatetripcheckoutController::class, 'index'])->name('privatetripcheckout');
+Route::get('/privatetripsummary', [PrivatetripsummaryController::class, 'index'])->name('privatetripsummary');
+Route::get('/privatetripsuccess', [PrivatetripsuccessController::class, 'index'])->name('privatetripsuccess');
+Route::get('/opentripcheckout', [OpentripcheckoutController::class, 'index'])->name('opentripcheckout');
+Route::get('/opentripsummary', [OpentripsummaryController::class, 'index'])->name('opentripsummary');
+Route::get('/opentripsuccess', [OpentripsuccessController::class, 'index'])->name('opentripsuccess');
+
+// Route::prefix('admin')->middleware('administrator')->group(function () {
+//     Route::get('discovery', [DiscoveryController::class, 'index'])->name('discovery');
+// });

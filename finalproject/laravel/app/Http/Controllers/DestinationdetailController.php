@@ -10,4 +10,16 @@ class DestinationdetailController extends Controller
     {
         return view('pages.destinationdetail');
     }
+    public function checkout()
+    {
+        return view('pages.destinationcheckout');
+    }
+    public function summary()
+    {
+        return view('pages.destinationsummary');
+    }
+    public function success()
+    {
+        return view('pages.destinationsuccess');
+    }
 }
